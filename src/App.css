@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+.app_header {
+  background-color: #1f188a;
+  object-fit: contain;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  max-height: 60px;
+}
+.app_headerimage {
+  object-fit: contain;
+  width: 100px;
+}
+.app_signup {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.app_postsright {
+  margin-left: 20px;
+}
+
+.app_posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.appText {
+  margin-top: 20px;
+  color: white;
+}
